@@ -16,3 +16,8 @@ def display(img1, img2):
   ax2.axis('off')
   ax1.imshow(img1)
   ax2.imshow(img2)
+
+if __name__ == '__main__':
+  img_input = imread('test_images/unknown.png')
+  img_result = imread('/content/AutoDIR/results/unknown_step_1_result_w_SCM.png')
+
